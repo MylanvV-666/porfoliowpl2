@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Ask</title>
+    <meta name="viewport" content="width=divice-width, initial-scale=0.1">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Sofia+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-
+<body id="ask" class="row col-12 justify-content-center">
+<form class="row col-12 justify-content-center">
+    <div class="row col-12 justify-content-center align-items-end">
+        <label id="naam_label" class="col-4" for="naam">Wat is uw naam?</label>
+    </div>
+    <div class="col-12 row justify-content-center align-items-center">
+        <input required class="col-4" type="text" name="naam" id="naam" placeholder="naam">
+    </div>
+    <div class="col-12 row justify-content-center align-items-start">
+        <button id="lets_go_button" class="col-4" type="submit"><a href="home.html">Let's Go!</a></button>
+    </div>
+</form>
+<div class="row col-12 justify-content-center align-items-end">
+    <p class="col-4">Dit zal alleen gebruikt worden voor de groeting. Hier wordt verder niks mee gedaan.</p>
+</div>
 </body>
 </html>

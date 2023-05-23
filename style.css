@@ -1,0 +1,112 @@
+/*algemeen*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body's*/
+#ask {
+    background-image: url("assets/background1.png");
+    height: 900px;
+    padding-top: 20rem;
+}
+#home {
+    background-image: url("assets/background2.png");
+}
+.background3 {
+    background-image: url("assets/background3.png");
+}
+#projecten {
+    background-image: url("assets/background4.png");
+}
+
+/*Nav*/
+nav img {
+    height: 100px;
+}
+nav a button {
+    width: 200px;
+    margin: 1rem;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 20px;
+}
+nav a button.home {
+    background-color: #86C4E8;
+    color: #fff;
+}
+nav a button.home:hover {
+    background-color: #fff;
+    color: #86C4E8;
+    border: 2px solid #86C4E8;
+}
+nav a button.ik {
+    background-color: #F1C6DB;
+    color: #fff;
+}
+nav a button.ik:hover {
+    background-color: #fff;
+    color: #FFA1CA;
+    border: 2px solid #FFA1CA;
+}
+nav a button.projecten {
+    background-color: #Fff;
+    color: #86C4E8;
+}
+nav a button.projecten:hover {
+    border: 2px solid #86C4E8;
+}
+
+/*Ask*/
+#naam_label {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #FFA1CA;
+}
+#naam {
+    height: 80px;
+    border: none;
+    border-radius: 25px;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #86C4E8;
+    background-color: #fff;
+}
+#naam:focus {
+    outline: none;
+}
+#lets_go_button {
+    height: 80px;
+    border: none;
+    border-radius: 25px;
+    width: 400px;
+    background-color: #F1C6DB;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Sofia Sans", sans-serif;
+}
+#lets_go_button:hover {
+    border: 2px solid #FFA1CA;
+    background-color: #fff;
+    color: #FFA1CA;
+}
+#ask div p {
+    color: #707070;
+    font-size: 16px;
+    font-family: "Questrial", sans-serif;
+    text-align: center;
+}
+#lets_go_button a {
+    text-decoration: none;
+    color: white;
+}
+#lets_go_button a:hover {
+    color: #FFA1CA;
+}
+
+/*Home*/
