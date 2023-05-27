@@ -110,3 +110,26 @@ nav a button.projecten:hover {
 }
 
 /*Home*/
+#home main div h1 {
+    font-weight: lighter;
+    font-size: 70px;
+    font-family: "Sofia Sans", sans-serif;
+}
+.roos {
+    color: #FFA1CA;
+}
+.blauw {
+    color: #86C4E8;
+}
+#home main div p {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Sofia Sans", sans-serif;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    color: #707070;
+}
