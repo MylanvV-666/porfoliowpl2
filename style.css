@@ -60,6 +60,15 @@ nav a button.projecten:hover {
     border: 2px solid #86C4E8;
 }
 
+/*footer*/
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    color: #707070;
+}
+
 /*Ask*/
 #naam_label {
     font-family: "Sofia Sans", sans-serif;
@@ -109,6 +118,7 @@ nav a button.projecten:hover {
     color: #FFA1CA;
 }
 
+
 /*Home*/
 #home main div h1 {
     font-weight: lighter;
@@ -126,10 +136,31 @@ nav a button.projecten:hover {
     font-size: 20px;
     font-family: "Sofia Sans", sans-serif;
 }
-footer {
-    text-align: center;
-    margin-top: 100px;
-    font-size: 20px;
-    font-family: "Sofia Sans", sans-serif;
-    color: #707070;
+
+
+/*ik*/
+#ik header div div h1 {
+    font-family: "Questrial", sans-serif;
+    font-size: 100px;
+    color: #FFA1CA;
+}
+#ik header div div p {
+    font-family: "Questrial", sans-serif;
+    font-size: 50px;
+    color: #86C4E8;
+}
+#roosbg {
+    color: #fff;
+    background-color: #F1C6DB;
+    border-radius: 70px;
+}
+#ik ul, #ik ol {
+    list-style-position: inside;
+}
+#korteinfo ul {
+    list-style-type: none;
+}
+#korteinfo {
+    text-align: right;
+
 }
