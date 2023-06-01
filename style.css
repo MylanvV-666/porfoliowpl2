@@ -214,3 +214,44 @@ footer {
     border: none;
     background-color: #86C4E8;
 }
+
+/*wpl1*/
+.back {
+    width: 100px;
+    height: 80px;
+    color: #fff;
+    background-color: #86C4E8;
+    font-size: 70px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+}
+.back:hover {
+    color: #86C4E8;
+    background-color: #fff;
+    border: 3px solid #86C4E8;
+}
+
+#wpl1 header div h1 {
+    font-family: "Questrial", sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+#wpl1 main div p {
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+}
+
+/*wpl2*/
+#wpl2 header div h1 {
+    font-family: "Questrial", sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+#wpl2 main div p {
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+}
