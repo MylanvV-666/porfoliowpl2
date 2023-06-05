@@ -254,6 +254,13 @@ footer {
     font-family: "Questrial", sans-serif;
     font-size: 25px;
 }
+#wpl2 main div a {
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+    text-align: right;
+}
 
 /*projecten*/
 .cards {
