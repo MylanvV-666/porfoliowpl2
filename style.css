@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /*body's*/
 #ask {
     background-image: url("assets/background1.png");
@@ -300,4 +299,53 @@ footer {
 .project main div p {
     font-family: "Questrial", sans-serif;
     font-size: 25px;
+}
+
+/*medias*/
+@media screen and (max-width: 800px){
+   /*nav*/
+    nav img{
+        display: none;
+    }
+    nav a button {
+        width: 100px;
+        margin: 0.5rem;
+        height: 50px;
+        font-size: 16px;
+    }
+    /*home*/
+    #home main div h1 {
+        font-size: 40px;
+    }
+    #home main div p {
+        font-size: 16px;
+    }
+    /*ik*/
+    #ik header div div h1 {
+        font-size: 70px;
+    }
+    #ik header div div p {
+        font-size: 30px;
+    }
+    #roosbg {
+        border-radius: 40px;
+    }
+    #ik main div div h2 {
+        font-size: 20px;
+    }
+    #ik main div div ul li, #ik main div div ol li {
+        font-size: 16px;
+    }
+    #ik main div div p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .logotjes {
+        width: 30px;
+    }
+    #button1, #button2 {
+        height: 30px;
+        border-radius: 30px;
+        font-size: 16px;
+    }
 }
