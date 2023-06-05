@@ -63,10 +63,10 @@ nav a button.projecten:hover {
 /*footer*/
 footer {
     text-align: center;
-    margin-top: 100px;
     font-size: 20px;
     font-family: "Sofia Sans", sans-serif;
     color: #707070;
+    margin-top: 100px;
 }
 
 /*Ask*/
@@ -252,6 +252,52 @@ footer {
 }
 
 #wpl2 main div p {
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+}
+
+/*projecten*/
+.cards {
+    height: 430px;
+    width: 340px;
+    margin: 30px auto;
+    text-decoration: none;
+}
+.cards img {
+    height: 300px;
+    width: 340px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0;
+}
+.cards p {
+    height: 130px;
+    width: 340px;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+.cards div {
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    color: black;
+}
+.cards div:hover {
+    background-color: #86C4E8;
+    color: white;
+}
+
+/*project*/
+.project header div h1 {
+    font-family: "Questrial", sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+.project main div p {
     font-family: "Questrial", sans-serif;
     font-size: 25px;
 }
