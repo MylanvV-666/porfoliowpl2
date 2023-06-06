@@ -163,6 +163,9 @@ footer {
     text-align: right;
 
 }
+#ik main div div .zwart {
+     color: black;
+}
 #ik main div div h2 {
     font-family: "Questrial", sans-serif;
     font-size: 40px;
@@ -213,6 +216,7 @@ footer {
     border: none;
     background-color: #86C4E8;
 }
+
 
 /*wpl1*/
 .back {
