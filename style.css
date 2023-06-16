@@ -9,15 +9,23 @@
     background-image: url("assets/background1.png");
     height: 900px;
     padding-top: 20rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #home {
     background-image: url("assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .background3 {
-    background-image: url("assets/background3.png");
+    background-image: url("assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #projecten {
-    background-image: url("assets/background4.png");
+    background-image: url("assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*Nav*/
@@ -164,7 +172,7 @@ footer {
 
 }
 #ik main div div .zwart {
-     color: black;
+     color: #86C4E8;
 }
 #ik main div div h2 {
     font-family: "Questrial", sans-serif;
@@ -186,6 +194,20 @@ footer {
 .logotjes {
     width: 60px;
 }
+
+#logogit:hover {
+     content: url("assets/github.png");
+}
+#logolinkedin:hover {
+    content: url("assets/linkedin.png");
+}
+#logofacebook:hover {
+    content: url("assets/facebook.png");
+}
+#logoinsta:hover {
+    content: url("assets/instagram.png");
+}
+
 #button1 {
     width: 100%;
     height: 50px;
@@ -239,7 +261,7 @@ footer {
 #wpl1 header div h1 {
     font-family: "Questrial", sans-serif;
     font-size: 40px;
-    color: #fff;
+    color: #FFA1CA;
 }
 
 #wpl1 main div p {
@@ -251,7 +273,7 @@ footer {
 #wpl2 header div h1 {
     font-family: "Questrial", sans-serif;
     font-size: 40px;
-    color: #fff;
+    color: #FFA1CA;
 }
 
 #wpl2 main div p {
@@ -304,7 +326,7 @@ footer {
 .project header div h1 {
     font-family: "Questrial", sans-serif;
     font-size: 40px;
-    color: #fff;
+    color: #86C4E8;
 }
 
 .project main div p {
