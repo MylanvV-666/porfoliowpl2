@@ -6,7 +6,7 @@ function doorgaan(){
         console.log("Saving input value:", input);
         localStorage.setItem("myInputValue", input);
     }
-    if (window.location.pathname === '/home.html' || window.location.href === 'https://mylan-van-vugt.netlify.app/home') {
+    else {
         input = localStorage.getItem("myInputValue");
         console.log("Retrieved input value:", input);
         document.getElementById("naamhome").innerHTML = input;
