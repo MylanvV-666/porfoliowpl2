@@ -1,4 +1,4 @@
-document.getElementById("lets_go_button").addEventListener("click", doorgaan());
+document.getElementById("lets_go_button").addEventListener("click", doorgaan);
 function doorgaan(){
     let input = "";
     if (window.location.pathname === '/index.html' || window.location.href === 'https://mylan-van-vugt.netlify.app') {
