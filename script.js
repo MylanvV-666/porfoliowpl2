@@ -1,5 +1,5 @@
 window.onload = doorgaan;
-document.getElementById("lets_go_button").addEventListener("click", doorgaan);
+document.getElementById("lets_go_button").addEventListener("click", doorgaan());
 function doorgaan(){
     let input = "";
     if (window.location.pathname === '/index.html' || window.location.href === 'https://mylan-van-vugt.netlify.app') {
@@ -7,11 +7,9 @@ function doorgaan(){
         console.log("Saving input value:", input);
         localStorage.setItem("myInputValue", input);
     }
-    if (window.location.pathname === '/home.html' || window.location.href === 'https://mylan-van-vugt.netlify.app/home.html') {
+    if (window.location.pathname === '/home.html' || window.location.href === 'https://mylan-van-vugt.netlify.app/home') {
         input = localStorage.getItem("myInputValue");
         console.log("Retrieved input value:", input);
         document.getElementById("naamhome").innerHTML = input;
     }
 }
-doorgaan();
-
