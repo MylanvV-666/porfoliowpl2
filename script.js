@@ -1,4 +1,3 @@
-window.onload = doorgaan;
 document.getElementById("lets_go_button").addEventListener("click", doorgaan());
 function doorgaan(){
     let input = "";
