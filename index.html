@@ -2,29 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ask</title>
-    <meta name="viewport" content="width=divice-width, initial-scale=0.1">
-    <link rel="stylesheet" href="bootstrap-grid.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Sofia+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <meta name="viewport" content="width=divice-width, initial-scale=0.1">
 </head>
-<body id="ask" class="row col-12 justify-content-center">
-<div class="row col-12 justify-content-center">
-    <div class="row col-12 justify-content-center align-items-end">
-        <label id="naam_label" class="col-lg-4 col-md-12" for="naam">Wat is uw naam?</label>
+<body id="home">
+<nav class="row justify-content-evenly align-items-center mt-3">
+    <img class="col-1 px-2" src="assets/logo.png" alt="MvV">
+    <a class="col-2" href="index.html"><button class="home">Home!</button></a>
+    <a class="col-2" href="ik.html"><button class="ik">Dit ben ik!</button></a>
+    <a class="col-2" href="projecten.html"><button class="projecten">Mijn projecten!</button></a>
+</nav>
+<main class="row justify-content-center mt-5">
+    <div class="row col-10 justify-content-evenly">
+        <div class="row col-lg-8 col-md-12 align-items-center">
+            <h1 class="roos">Hey hoi, <span id="naamhome"></span>!<br>Wat fijn dat je er bent!</h1>
+        </div>
+        <img class="col-lg-4 col-md-12 p-5" src="assets/ikke.png" alt="ik">
+        <div>
+            <h1 class="blauw">Ik ben Mylan van Vugt</h1>
+            <p class="blauw">Dat zegt u nu misschien niks maar dat zal veranderen nadat u deze portfolio hebt doorgenomen.</p>
+        </div>
     </div>
-    <div class="col-12 row justify-content-center align-items-center">
-        <input required class="col-lg-4 col-md-12" type="text" name="naam" id="naam" placeholder="naam">
-    </div>
-    <div class="col-12 row justify-content-center align-items-start">
-        <button id="lets_go_button" class="col-lg-4 col-md-12"><a href="home.html">Let's Go!</a></button>
-    </div>
-</div>
-<div class="row col-12 justify-content-center align-items-end">
-    <p class="col-lg-4 col-md-12">Dit zal alleen gebruikt worden voor de groeting. Hier wordt verder niks mee gedaan.</p>
-</div>
+</main>
+<footer>
+    <p>Copyright @ MvV</p>
+</footer>
 </body>
 </html>
