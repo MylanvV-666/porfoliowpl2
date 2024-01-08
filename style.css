@@ -5,13 +5,6 @@
     box-sizing: border-box;
 }
 /*body's*/
-#ask {
-    background-image: url("assets/background1.png");
-    height: 900px;
-    padding-top: 20rem;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 #home {
     background-image: url("assets/background2.png");
     background-repeat: no-repeat;
@@ -23,6 +16,11 @@
     background-attachment: fixed;
 }
 #projecten {
+    background-image: url("assets/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#wpl3 {
     background-image: url("assets/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,21 +48,30 @@ nav a button.home:hover {
     color: #86C4E8;
     border: 2px solid #86C4E8;
 }
-nav a button.ik {
+nav a button.projecten {
     background-color: #F1C6DB;
     color: #fff;
 }
-nav a button.ik:hover {
+nav a button.projecten:hover {
     background-color: #fff;
     color: #FFA1CA;
     border: 2px solid #FFA1CA;
 }
-nav a button.projecten {
+nav a button.ik {
     background-color: #Fff;
     color: #86C4E8;
 }
-nav a button.projecten:hover {
+nav a button.ik:hover {
     border: 2px solid #86C4E8;
+}
+nav a button.wpl3 {
+    background-color: #fff;
+    color: #FFA1CA;
+}
+nav a button.wpl3:hover {
+    background-color: #fff;
+    color: #FFA1CA;
+    border: 2px solid #FFA1CA;
 }
 
 /*footer*/
@@ -75,56 +82,6 @@ footer {
     color: #707070;
     margin-top: 100px;
 }
-
-/*Ask*/
-#naam_label {
-    font-family: "Sofia Sans", sans-serif;
-    font-size: 80px;
-    text-align: center;
-    color: #FFA1CA;
-}
-#naam {
-    height: 80px;
-    border: none;
-    border-radius: 25px;
-    font-family: "Sofia Sans", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #86C4E8;
-    background-color: #fff;
-}
-#naam:focus {
-    outline: none;
-}
-#lets_go_button {
-    height: 80px;
-    border: none;
-    border-radius: 25px;
-    width: 400px;
-    background-color: #F1C6DB;
-    color: #fff;
-    font-size: 40px;
-    font-family: "Sofia Sans", sans-serif;
-}
-#lets_go_button:hover {
-    border: 2px solid #FFA1CA;
-    background-color: #fff;
-    color: #FFA1CA;
-}
-#ask div p {
-    color: #707070;
-    font-size: 16px;
-    font-family: "Questrial", sans-serif;
-    text-align: center;
-}
-#lets_go_button a {
-    text-decoration: none;
-    color: white;
-}
-#lets_go_button a:hover {
-    color: #FFA1CA;
-}
-
 
 /*Home*/
 #home main div h1 {
@@ -143,7 +100,6 @@ footer {
     font-size: 20px;
     font-family: "Sofia Sans", sans-serif;
 }
-
 
 /*ik*/
 #ik header div div h1 {
@@ -310,6 +266,7 @@ footer {
     font-size: 25px;
     text-align: center;
     padding: 20px;
+    text-decoration: none;
 }
 .cards div {
     background-color: white;
@@ -332,6 +289,57 @@ footer {
 .project main div p {
     font-family: "Questrial", sans-serif;
     font-size: 25px;
+}
+
+/*wpl3*/
+.cards2 {
+    height: 430px;
+    width: 340px;
+    margin: 30px auto;
+    text-decoration: none;
+}
+.cards2 img {
+    height: 200px;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 3rem auto;
+    position: relative;
+    left: 5.5rem;
+}
+.cards2 video {
+    height: 300px;
+    width: 340px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0;
+}
+.cards2 p, .cards2 a p {
+    height: 130px;
+    width: 340px;
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.cards2 a {
+    text-decoration: none;
+    color: black;
+}
+.cards2 div {
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    color: black;
+}
+.cards2 div:hover {
+    background-color: #86C4E8;
+    color: white;
+}
+.cards2 a:hover {
+    background-color: #86C4E8;
+    color: white;
 }
 
 /*medias*/
