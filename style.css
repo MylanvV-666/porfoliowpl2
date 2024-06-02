@@ -9,28 +9,32 @@
     background-image: url("assets/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 .background3 {
     background-image: url("assets/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 #projecten {
     background-image: url("assets/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
-#wpl3 {
+#wpl3, #wpl4 {
     background-image: url("assets/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 /*Nav*/
 nav img {
     height: 100px;
 }
-nav a button {
+button {
     width: 200px;
     margin: 1rem;
     height: 60px;
@@ -39,20 +43,20 @@ nav a button {
     font-family: "Sofia Sans", sans-serif;
     font-size: 20px;
 }
-nav a button.home {
+button.home {
     background-color: #86C4E8;
     color: #fff;
 }
-nav a button.home:hover {
+button.home:hover {
     background-color: #fff;
     color: #86C4E8;
     border: 2px solid #86C4E8;
 }
-nav a button.projecten {
+button.projecten {
     background-color: #F1C6DB;
     color: #fff;
 }
-nav a button.projecten:hover {
+button.projecten:hover {
     background-color: #fff;
     color: #FFA1CA;
     border: 2px solid #FFA1CA;
@@ -84,7 +88,7 @@ footer {
 }
 
 /*Home*/
-#home main div h1 {
+h1 {
     font-weight: lighter;
     font-size: 70px;
     font-family: "Sofia Sans", sans-serif;
@@ -130,7 +134,7 @@ footer {
 #ik main div div .zwart {
      color: #86C4E8;
 }
-#ik main div div h2 {
+h2 {
     font-family: "Questrial", sans-serif;
     font-size: 40px;
     color: #fff;
@@ -292,6 +296,10 @@ footer {
 }
 
 /*wpl3*/
+#wpl3 main {
+    margin: 0 auto;
+}
+
 .cards2 {
     height: 430px;
     width: 340px;
@@ -340,6 +348,51 @@ footer {
 .cards2 a:hover {
     background-color: #86C4E8;
     color: white;
+}
+
+/*wpl4*/
+#wpl4 h2 {
+    color: black;
+}
+
+#wpl4 main button {
+    width: 50%;
+}
+
+#wpl4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wpl4 main {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10rem;
+}
+
+#wpl4 main div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#wpl4 main div div {
+    width: 100%;
+}
+
+#wpl4 #naar_onstage {
+    display: none;
+}
+
+#wpl4 #opdrachten {
+    display: none;
+}
+
+#wpl4 #reflectiewpl4 {
+    display: none;
 }
 
 /*medias*/
